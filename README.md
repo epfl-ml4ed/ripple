@@ -1,6 +1,6 @@
 # Ripple: Concept-Based Interpretation for Raw Time Series Models in Education
 
-Attention: This code is subject to restructuring and cleaning upon EAAI acceptance.
+**Attention: This code is subject to restructuring and cleaning upon EAAI acceptance.**
 
 This is the official repository for the submitted EAAI-23 paper titled "Ripple: Concept-Based Interpretation for Raw Time Series Models in Education"
 
