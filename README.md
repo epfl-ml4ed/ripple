@@ -2,7 +2,7 @@
 
 **Attention: This code is subject to restructuring and cleaning upon EAAI acceptance.**
 
-This is the official repository for the submitted EAAI-23 paper titled "Ripple: Concept-Based Interpretation for Raw Time Series Models in Education"
+This is the official repository for the paper titled "Ripple: Concept-Based Interpretation for Raw Time Series Models in Education" submitted to EAAI-23.
 
 ## Scripts
 Jupyter notebooks and python scripts needed to reproduce the paper's results are provided in `scripts` folder.
