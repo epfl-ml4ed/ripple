@@ -4,6 +4,18 @@
 
 This is the official repository for the paper titled "Ripple: Concept-Based Interpretation for Raw Time Series Models in Education" submitted to EAAI-23.
 
+## Installation
+It is highly recommended to create a virtual environment with python version of 3.9 and then do the following.
+Clone the repository recursively:
+```
+git clone --recursive https://github.com/epfl-ml4ed/ripple.git
+```
+Install the customized version of Captum:
+```
+cd captum
+pip3 install -e .
+```
+
 ## Scripts
 Jupyter notebooks and python scripts needed to reproduce the paper's results are provided in `scripts` folder.
 ### data_splits.ipynb
