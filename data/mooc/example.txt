@@ -1,0 +1,7 @@
+   |-coursera
+   |---demographics
+   |---forum_event
+   |---grade
+   |---problem_event
+   |---schedule
+   |---video_event
