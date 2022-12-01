@@ -1,6 +1,6 @@
 # Ripple: Concept-Based Interpretation for Raw Time Series Models in Education
 
-This is the official repository for the paper titled "Ripple: Concept-Based Interpretation for Raw Time Series Models in Education", written by [Mohammad Asadi](http://github.com/MohamadAsadi78), [Vinitra Swamy](http://github.com/vinitra), Jibril Frej, Julien Vignoud, Mirko Marras, Tanja Kaser and featured at the EAAI symposium of AAAI 23.
+This is the official repository for the paper titled "Ripple: Concept-Based Interpretation for Raw Time Series Models in Education", written by [Mohammad Asadi](http://github.com/MohamadAsadi78), [Vinitra Swamy](http://github.com/vinitra), Jibril Frej, Julien Vignoud, Mirko Marras, Tanja Kaser and featured at AAAI 23.
 
 ## Scripts
 Jupyter notebooks and python scripts needed to reproduce the paper's results are provided in `scripts` folder.
