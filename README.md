@@ -2,8 +2,10 @@
 
 This is the official repository for the paper titled "Ripple: Concept-Based Interpretation for Raw Time Series Models in Education", written by [Mohammad Asadi](http://github.com/MohamadAsadi78), [Vinitra Swamy](http://github.com/vinitra), Jibril Frej, Julien Vignoud, Mirko Marras, Tanja Kaser and featured at AAAI 23.
 
+Jupyter notebooks corresponding to each of the research questions mentioned in the paper can be found in `scripts` folder 
+
 ## Scripts
-Jupyter notebooks and python scripts needed to reproduce the paper's results are provided in `scripts` folder.
+Jupyter notebooks and python scripts needed to reproduce the paper's results are provided in `scripts\` folder. Short descriptions regarding the research question and methodology are also presented at the beginning of each of the notebooks.
 #### data_splits.ipynb
 Splits the dataset for each of the courses found in `data\prep_data` folder into train, validation, and test with respect to the defined percentages (80-10-10 as default).
 It then stores the arguments of the students corresponding to each of the splits and stores them in `data\split_args`
