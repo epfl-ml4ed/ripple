@@ -28,10 +28,10 @@ This script is responsible for transforming the course log datasets as provided 
 **run_raindrop.ipynb**  
 RQ1. Using the data splits and datasets resulted from the last two scripts, `run_raindrop.ipynb` alters `Raindrop` model w.r.t. each course dataset and trains the model on it.
 It then evaluates the the trained model's performance again on validation set and test set and saves them as `.csv` files for each course.
-This file uses two versions of Raindrop namely `Raindrop_v2` and `Raindrop_v3` where the last one is a slightly adjusted version of `Raindrop_v2` from the original Raindrop repository to change the number of layers for the final `MLP` classification layer for grid search.
+This file uses two versions of Raindrop namely `Raindrop_v2` and `Raindrop_v3` where the last one is a slightly adjusted version of `Raindrop_v2` from the original Raindrop repository to change the number of layers for the final MLP classification layer for grid search.
 
 **run_baselines.ipynb**  
-Trains, evaluates, and stores validation and test results for all the `handcrafted-feature` models. Implementation adopted from `Meta-Transfer Learning` paper.
+Trains, evaluates, and stores validation and test results for all the `handcrafted-feature` models. Implementation adopted from the ML4ED lab's previous [Meta-Transfer Learning for Early Success Prediction in MOOCs](https://arxiv.org/abs/2205.01064) paper. The code for this model can be found at the [epfl-ml4ed/meta-transfer-learning](https://github.com/epfl-ml4ed/meta-transfer-learning) repository.
 
 **run_baselines_seft_trnsfrmr.ipynb**  
 Trains, evaluates, and stores validation and test results for SEFT and Transformer as implemented by Raindrop's repository. It also adjusts SEFT and Transformer for altering the number of layers for TransformerEncoder and last MLP classification layer essential for performing the grid search.
