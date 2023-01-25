@@ -12,7 +12,11 @@ Furthermore, we extend concept activation vectors for interpretability in raw ti
 
 ## Usage Guide
 
-Jupyter notebooks and python scripts needed to reproduce the paper's results are provided in `scripts\` folder. Short descriptions regarding the research question and methodology are also presented at the beginning of each of the notebooks.
+Jupyter notebooks and python scripts needed to reproduce the paper's results are provided in `scripts\` folder. Short descriptions regarding the research question and methodology are also presented at the beginning of each of the notebooks. 
+
+- Start by cloning this repository with `git clone https://github.com/epfl-ml4ed/ripple.git`.  
+- Install the required packages to run these scripts with `pip install -r requirements.txt`.
+- Run the desired scripts below to reproduce experiments from the paper.
 
 **data_splits.ipynb**  
 Splits the dataset for each of the courses found in `data\prep_data` folder into train, validation, and test with respect to the defined percentages (80-10-10 as default).
