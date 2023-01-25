@@ -53,9 +53,9 @@ If you find any bugs or would like to contribute new models, training protocols,
 If you find this code useful in your work, please cite our paper:
 
 ```
-Asadi, M., Swamy, V., Frej, J., Vignoud, J., Marras, M., & Käser, T. (2022). 
+Asadi, M., Swamy, V., Frej, J., Vignoud, J., Marras, M., & Käser, T. (2023). 
 Ripple: Concept-Based Interpretation for Raw Time Series Models in Education. 
-In: Proceedings of the 37th AAAI Conference on Artificial Intelligence, Thirteenth AAAI Symposium on Educational Advances in Artificial Intelligence.
+In: Proceedings of the 37th AAAI Conference on Artificial Intelligence (EAAI Symposium).
 ```
 
 ## License
